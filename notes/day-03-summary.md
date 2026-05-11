@@ -1,0 +1,5 @@
+- PRs are the standard way to merge feature branches into `main`, keeping the history clean and reviewable.
+- The typical flow is: create a feature branch → make changes → open a PR → merge → delete the branch.
+- Plan-first editing means reviewing the full context before touching any file, avoiding unnecessary rewrites or missed dependencies.
+- Claude Code can draft commit messages and PR descriptions from the actual diff, keeping them accurate rather than hand-waved summaries.
+- Reviewing the git diff before committing helps catch unintended changes and keeps each commit focused on a single purpose.
