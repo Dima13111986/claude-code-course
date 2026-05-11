@@ -1,3 +1,6 @@
+"""Utility functions for basic numeric operations on lists."""
+
+
 def calculate_average(numbers):
     total = 0
     for n in numbers:

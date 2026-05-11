@@ -1,7 +1,7 @@
 # Claude Code — Мій прогрес курсу
 
 ## Поточний день
-День: 2
+День: 3
 Статус: completed
 
 ## Журнал днів
@@ -41,6 +41,29 @@
 - Корисні промпти:
 - Проблеми:
 - Що повторити наступного разу:
+
+### День 3 — First edit, plan-first workflow, git diff review
+- Дата: 2026-05-11
+- Статус: completed
+- Що зроблено:
+  - Merged Day 2 PR and returned to main branch
+  - Created feature/day-03-first-edit branch
+  - Added docstring to notes/sample-code.py using Claude Code with plan-first workflow
+- Git команди:
+  - `git checkout main` — switched to main branch
+  - `git pull` — synced with remote after PR merge
+  - `git branch -d` — deleted merged feature branch locally
+  - `git checkout -b` — created new feature branch
+  - `git diff` — reviewed changes before committing
+  - `git add` — staged changes
+  - `git commit` — committed changes
+  - `git push` — pushed branch to remote
+- Корисні промпти:
+  - Plan-first edit: ask Claude to show the plan before making any changes
+  - Single-file edit: scope the task to one file to keep changes reviewable
+  - Self-review with git diff: ask Claude to show `git diff` after editing
+- Проблеми: —
+- Що повторити наступного разу: always check git diff before commit
 
 ## Загальна інформація
 - Навчальний репозиторій: claude-code-course
