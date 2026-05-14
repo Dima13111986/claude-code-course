@@ -11,3 +11,6 @@ node_modules/
 .vscode/
 !.vscode/settings.json
 .DS_Store
+
+# CLI todo app — local user data, not code
+cli-todo/tasks.json
