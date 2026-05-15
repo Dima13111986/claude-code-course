@@ -65,6 +65,19 @@
 - Проблеми: —
 - Що повторити наступного разу: always check git diff before commit
 
+## Day 8 — Pytest suite for cli-todo
+- Date: 2026-05-15
+- Status: done
+- Branch: feature/day-08-pytest (merged in PR #8)
+- Added: cli-todo/tests/test_todo.py (4 tests), cli-todo/conftest.py,
+  cli-todo/requirements-dev.txt
+- Test result: 4 passed in 0.19s (pytest 9.0.3, Python 3.14.5)
+- Useful prompts: read-only function map; "exactly 4 tests, tmp_path only,
+  do not modify todo.py"; review-diff prompt
+- Gotchas: ensurepip hung on first venv attempt — fixed with
+  `python -m venv .venv --without-pip` + manual get-pip.py
+- Next: Day 9 — bug fixing (start from the 5th edge-case test about empty string)
+
 ## Загальна інформація
 - Навчальний репозиторій: claude-code-course
 - GitHub URL: https://github.com/Dima13111986/claude-code-course
